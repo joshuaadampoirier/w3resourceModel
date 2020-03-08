@@ -5,7 +5,7 @@ CREATE TABLE IF NOT EXISTS ORDERS
                                     PRIMARY KEY 
     ,ORD_AMOUNT         NUMERIC     NOT NULL 
     ,ADVANCE_AMOUNT     NUMERIC     NOT NULL 
-    ,ORD_DATE           NUMERIC     NOT NULL 
+    ,ORD_DATE           TEXT        NOT NULL 
     ,CUST_CODE          TEXT        NOT NULL 
     ,AGENT_CODE         TEXT        NOT NULL
     ,ORD_DESCRIPTION    TEXT        NOT NULL  
