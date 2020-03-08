@@ -1,0 +1,12 @@
+# execute table definitions 
+tables:
+  - always: False 
+  - recursive: False 
+  - order:
+    - 'Agents.sql'
+    - 'Customer.sql'
+    - 'Orders.sql'
+
+migrations:
+ - always: False 
+ - recursive: False 
