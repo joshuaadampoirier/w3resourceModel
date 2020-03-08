@@ -1,3 +1,6 @@
+# type of database project
+engine: 'SQLite3'
+
 # execute table definitions 
 tables:
   - always: False 
@@ -7,6 +10,7 @@ tables:
     - 'Customer.sql'
     - 'Orders.sql'
 
+# execute migrations 
 migrations:
  - always: False 
  - recursive: False 
