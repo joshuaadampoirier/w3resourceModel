@@ -1,5 +1,6 @@
-# type of database project
+# database metadata
 engine: 'SQLite3'
+dbname: 'w3resourceModel'
 
 # execute table definitions 
 tables:
