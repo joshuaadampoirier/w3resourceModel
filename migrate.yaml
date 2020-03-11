@@ -2,16 +2,19 @@
 engine: 'SQLite3'
 dbname: 'w3resourceModel'
 
-# execute table definitions 
-tables:
-  - always: False 
-  - recursive: False 
-  - order:
-    - 'Agents.sql'
-    - 'Customer.sql'
-    - 'Orders.sql'
-
-# execute migrations 
+# migrations to be executed
 migrations:
- - always: False 
- - recursive: False 
+
+  # table definitions
+  tables:
+    - always: False 
+    - recursive: False 
+    - order:
+      - 'Agents.sql'
+      - 'Customer.sql'
+      - 'Orders.sql'
+
+  # general migrations 
+  migrations:
+   - always: False 
+   - recursive: False 
