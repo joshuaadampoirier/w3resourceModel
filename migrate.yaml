@@ -7,14 +7,14 @@ migrations:
 
   # table definitions
   tables:
-    - always: False 
-    - recursive: False 
-    - order:
+    always: False
+    recursive: False
+    order:
       - 'Agents.sql'
       - 'Customer.sql'
       - 'Orders.sql'
 
   # general migrations 
   migrations:
-   - always: False 
-   - recursive: False 
+    always: False 
+    recursive: False 
