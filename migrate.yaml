@@ -1,0 +1,20 @@
+# database metadata
+engine: 'SQLite3'
+dbname: 'w3resourceModel'
+
+# migrations to be executed
+migrations:
+
+  # table definitions
+  tables:
+    always: False
+    recursive: False
+    order:
+      - 'Agents.sql'
+      - 'Customer.sql'
+      - 'Orders.sql'
+
+  # general migrations 
+  migrations:
+    always: False 
+    recursive: False 
